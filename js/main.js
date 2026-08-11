@@ -54,10 +54,8 @@
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
   // ---- Contact form: WhatsApp / email handoff ----
-  // TODO: reemplazar por el número real de WhatsApp (formato internacional, sin + ni espacios)
-  var WHATSAPP_NUMBER = '50600000000';
-  // TODO: reemplazar por el correo real de contacto
-  var CONTACT_EMAIL = 'hola@fmsolutions.cr';
+  var WHATSAPP_NUMBER = '50686582399';
+  var CONTACT_EMAIL = 'fabomoracr@icloud.com';
 
   var form = document.getElementById('contactForm');
   var status = document.getElementById('formStatus');

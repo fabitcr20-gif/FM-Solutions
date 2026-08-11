@@ -243,8 +243,10 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); font-weight: 600; }
   font-size: 1.25rem;
   color: var(--color-ink);
 }
-.brand-word-name em {
-  font-style: normal;
+.brand-word-fm {
+  color: var(--color-clay);
+}
+.brand-word-solutions {
   color: var(--color-ink);
 }
 .brand-word-tag {

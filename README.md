@@ -19,13 +19,13 @@ Abrí `index.html` directamente en el navegador, o serví la carpeta con cualqui
 
 ## Pendientes antes de publicar
 
-1. **Logo real**: el sitio usa un logo placeholder construido en CSS/SVG (insignia + monograma "FM").
-   Cuando subas `fm-icon.png` y `fm-logo-horizontal.png` a `assets/logo/`, buscá los comentarios
-   `TODO` en `index.html` (header, hero y footer) e intercambiá el bloque `.logo-badge` por un
-   `<img>` apuntando a esos archivos.
-2. **Número de WhatsApp**: reemplazá `50600000000` en `index.html` (enlace directo) y en
-   `js/main.js` (`WHATSAPP_NUMBER`) por el número real, en formato internacional sin `+` ni espacios.
-3. **Correo de contacto**: reemplazá `hola@fmsolutions.cr` en `index.html` y `js/main.js`
-   (`CONTACT_EMAIL`) por el correo real.
-4. **Imagen Open Graph**: `og:image` apunta a `assets/logo/fm-logo-horizontal.png`; una vez subido
+1. **Logo real**: el sitio usa un logo placeholder construido en CSS/SVG (insignia + monograma "FM",
+   colores y tipografía ya alineados al logo real). Cuando el archivo `fm-icon.png` y/o
+   `fm-logo-horizontal.png` esté en `assets/logo/`, buscá los comentarios `TODO` en `index.html`
+   (header, hero y footer) e intercambiá el bloque `.logo-badge` por un `<img>` apuntando a esos
+   archivos.
+2. **Imagen Open Graph**: `og:image` apunta a `assets/logo/fm-logo-horizontal.png`; una vez subido
    el archivo, las vistas previas en redes sociales van a mostrarlo automáticamente.
+
+Datos de contacto (WhatsApp `50686582399`, correo `fabomoracr@icloud.com`) ya están cargados en
+`index.html` y `js/main.js`.
