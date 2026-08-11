@@ -185,84 +185,28 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); font-weight: 600; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
 }
 
-.logo-badge {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
-  border: 2px solid var(--color-ink);
-  border-radius: var(--radius-blob);
-  background: var(--color-paper);
-  flex-shrink: 0;
+.brand-logo-img {
+  height: 42px;
+  width: auto;
 }
 
-.logo-badge-mark {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.3rem;
-  letter-spacing: -1px;
-  display: inline-flex;
-}
-.logo-f { color: var(--color-clay); }
-.logo-m { color: var(--color-sage); }
-
-.logo-smile {
-  position: absolute;
-  bottom: 6px;
-  width: 26px;
-  height: 8px;
+.footer-logo-img {
+  height: 36px;
+  width: auto;
 }
 
-.logo-badge-large {
+.hero-visual-icon {
   width: 220px;
   height: 220px;
 }
-.logo-badge-large .logo-badge-mark { font-size: 5.4rem; letter-spacing: -3px; }
-.logo-badge-large .logo-smile { width: 110px; height: 30px; bottom: 24px; }
 
-.logo-badge-small {
-  width: 40px;
-  height: 40px;
-}
-.logo-badge-small .logo-badge-mark { font-size: 1rem; }
-.logo-badge-small .logo-smile { display: none; }
-
-.brand-word {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-.brand-word-name {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--color-ink);
-}
-.brand-word-fm {
-  color: var(--color-clay);
-}
-.brand-word-solutions {
-  color: var(--color-ink);
-}
-.brand-word-tag {
-  font-size: 0.62rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--color-sage-dark);
-  font-weight: 600;
-  margin-top: 2px;
-}
-.brand-word-name-footer {
-  font-size: 1.15rem;
-}
-
-@media (max-width: 640px) {
-  .brand-word-tag { display: none; }
+@media (max-width: 859px) {
+  .hero-visual-icon {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /* ---------- Header ---------- */
@@ -397,9 +341,6 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); font-weight: 600; }
   display: flex;
   justify-content: center;
 }
-.hero-visual .logo-badge-large {
-  opacity: 0.9;
-}
 
 @media (min-width: 860px) {
   .hero-inner {
@@ -408,9 +349,6 @@ h3 { font-size: clamp(1.15rem, 2vw, 1.35rem); font-weight: 600; }
 }
 @media (max-width: 859px) {
   .hero-visual { order: -1; }
-  .hero-visual .logo-badge-large { width: 150px; height: 150px; }
-  .hero-visual .logo-badge-large .logo-badge-mark { font-size: 3.6rem; letter-spacing: -2px; }
-  .hero-visual .logo-badge-large .logo-smile { width: 74px; height: 20px; bottom: 16px; }
 }
 
 /* ---------- Service cards ---------- */
